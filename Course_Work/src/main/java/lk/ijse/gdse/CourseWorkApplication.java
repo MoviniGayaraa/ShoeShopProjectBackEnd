@@ -6,9 +6,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
+
 @SpringBootApplication
 public class CourseWorkApplication implements WebMvcConfigurer {
-
 	public static void main(String[] args) {
 		SpringApplication.run(CourseWorkApplication.class, args);
 	}
