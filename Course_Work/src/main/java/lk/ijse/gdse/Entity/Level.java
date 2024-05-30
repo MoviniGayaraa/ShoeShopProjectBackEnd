@@ -2,5 +2,5 @@ package lk.ijse.gdse.Entity;
 
 
 public enum Level {
-    GOLD, SILVER, BRONZE
+    GOLD, SILVER, BRONZE, NEW
 }
