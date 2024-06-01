@@ -48,6 +48,8 @@ public class SaleServiceImpl implements SaleService {
             return false;
         }
 
+        System.out.println(">>>>>>>>>>>>>>>> : "+user.get().getEmployee().getEmployeeName());
+
         Sale sale = new Sale();
         sale.setOrder_id(UUID.randomUUID().toString());
         sale.setUser(user.get());
